@@ -12,5 +12,3 @@ print("Seu e-mail é: ", email)
 palavra = "jaca"
 #colocar a string como toda maiúscula
 print("Colocando o texto em maiúscula: ", palavra.upper())
-
-
