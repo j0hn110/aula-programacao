@@ -22,3 +22,16 @@ palavra_contar = "banana"
 print("Contar a letra b: ", palavra_contar.count("b"))
 print("Contar a letra a: ", palavra_contar.count("a"))
 print("Contar a letra n: ", palavra_contar.count("n"))
+
+#exercício, gerar senha automaticamente:
+print("Senha gerada automaticamente: ")
+print("a"+str(email.count("a"))+"e"+str(email.count("e"))+"i"+str(email.count("i"))+"o"+str(email.count("o"))+"u"+str(email.count("u")))
+
+print(email)
+a = email.count("a")
+e = email.count("e")
+i = email.count("i")
+o = email.count("o")
+u = email.count("u")
+nova_senha = "a" + str(a) + "e" + str(e) + "i" + str(i) + "o" + str(o) + "u" + str(u)
+print(nova_senha)
