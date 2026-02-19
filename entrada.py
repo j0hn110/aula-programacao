@@ -16,3 +16,9 @@ print("Colocando o texto em maiúscula: ", palavra.upper())
 PALAVRA = "JACA"
 #colocar a string como toda minúscula
 print("Colocando o texto em minúsculo: ", PALAVRA.lower())
+
+#contar caracter da string
+palavra_contar = "banana"
+print("Contar a letra b: ", palavra_contar.count("b"))
+print("Contar a letra a: ", palavra_contar.count("a"))
+print("Contar a letra n: ", palavra_contar.count("n"))
