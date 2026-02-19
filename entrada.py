@@ -1,4 +1,4 @@
-usuario = input("Digite seu nome de usuário: ")
+nome = input("Digite seu nome de usuário: ")
 senha = input("Digite sua senha: ")
 dominio = input("Qual seria o domínio? ")
 print("Olá ", nome, ", seja bem vindo ao meu mundo")
